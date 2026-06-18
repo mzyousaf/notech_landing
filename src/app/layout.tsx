@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { DM_Sans, Syne } from "next/font/google";
+import AssistrioChat from "@/components/AssistrioChat";
 import "./globals.css";
 
 const dmSans = DM_Sans({
@@ -40,7 +41,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${dmSans.variable} ${syne.variable} h-full scroll-smooth`}>
-      <body className="min-h-full antialiased">{children}</body>
+      <head>
+        <link rel="stylesheet" href="https://widget.assistrio.com/assistrio-chat.css" />
+      </head>
+      <body className="min-h-full antialiased">
+        {children}
+        <AssistrioChat />
+      </body>
     </html>
   );
 }
