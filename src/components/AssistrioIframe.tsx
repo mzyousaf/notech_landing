@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 const IFRAME_BASE =
-  "https://app.assistrio.com/iframe/6a43433c7ee5ba524f8d852d?accessKey=pk_z73jnVmkeO99MT2CaBbX9ExOYXXNjUsV";
+  "https://app.assistrio.com/iframe/6a4f0ea979616981427be06b?accessKey=pk_0hy36HKYx2w9hjeaMv9m99L4nnawj3-b";
 
 export default function AssistrioIframe() {
   const [src, setSrc] = useState(IFRAME_BASE);
