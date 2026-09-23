@@ -1,8 +1,8 @@
-# Notech Landing Page
+# Nova AI Landing Page
 
-A single-page marketing site for **Notech** — an AI automation platform for modern teams.
+A single-page marketing site for **Nova AI** — enterprise AI automation and intelligent agents.
 
-Built with Next.js 16, React 19, TypeScript, and Tailwind CSS v4.
+Built with Next.js, React, TypeScript, and Tailwind CSS.
 
 ## Getting Started
 
@@ -11,22 +11,13 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to view the site.
+Open [http://localhost:3000](http://localhost:3000).
+
+## Routes
+
+- `/` — Main landing page
+- `/chat` — Assistrio iframe chat page
 
 ## Deploy on Vercel
 
-1. Push this repo to GitHub (already configured).
-2. Go to [vercel.com/new](https://vercel.com/new) and import the repository.
-3. Vercel auto-detects Next.js — no extra configuration needed.
-4. Click **Deploy**.
-
-## Project Structure
-
-```
-src/
-├── app/
-│   ├── layout.tsx    # Root layout & metadata
-│   ├── page.tsx      # Main landing page
-│   └── globals.css   # Global styles & animations
-└── components/       # Landing page sections
-```
+Import the repository at [vercel.com/new](https://vercel.com/new). Next.js is auto-detected.

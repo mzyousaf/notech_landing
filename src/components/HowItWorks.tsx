@@ -1,50 +1,48 @@
 const steps = [
   {
     step: "01",
-    title: "Discover & Map",
+    title: "Assess & Prioritize",
     description:
-      "We audit your workflows, identify automation opportunities, and define success metrics with your team.",
+      "We map high-value processes, quantify impact, and define a phased automation roadmap aligned to business KPIs.",
   },
   {
     step: "02",
-    title: "Build & Integrate",
+    title: "Design & Validate",
     description:
-      "Our engineers configure AI agents, connect your stack, and test automations in a sandbox environment.",
+      "Solution architects configure agents, integrations, and guardrails — then validate outcomes in controlled pilots.",
   },
   {
     step: "03",
-    title: "Launch & Optimize",
+    title: "Deploy & Scale",
     description:
-      "Deploy to production with monitoring, then continuously refine agents based on real performance data.",
+      "Production rollout includes monitoring, training, and ongoing optimization to expand automation safely across teams.",
   },
 ];
 
 export default function HowItWorks() {
   return (
-    <section id="how-it-works" className="relative border-y border-white/8 bg-[#0c0c14] py-24 lg:py-32">
+    <section id="how-it-works" className="relative border-y border-slate-700/50 bg-[#0f172a] py-24 lg:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="grid items-center gap-16 lg:grid-cols-2">
           <div>
-            <span className="text-sm font-semibold uppercase tracking-widest text-violet-400">
-              Process
-            </span>
-            <h2 className="font-display mt-4 text-3xl font-bold tracking-tight sm:text-4xl">
-              From idea to automation in{" "}
-              <span className="gradient-text">weeks, not months</span>
+            <span className="section-label">Methodology</span>
+            <h2 className="font-display mt-4 text-3xl font-bold tracking-tight text-white sm:text-4xl">
+              Structured delivery with{" "}
+              <span className="gradient-text">measurable outcomes</span>
             </h2>
             <p className="mt-4 text-lg text-slate-400">
-              Our proven methodology gets you live fast — with a dedicated success team
-              guiding every step of the journey.
+              Our engagement model reduces implementation risk and ensures every
+              automation initiative ties back to operational and financial goals.
             </p>
 
             <div className="mt-12 space-y-8">
               {steps.map((item) => (
                 <div key={item.step} className="flex gap-6">
-                  <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-indigo-500/20 to-cyan-400/20 font-display text-sm font-bold text-cyan-400">
+                  <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg border border-blue-500/30 bg-blue-600/10 font-display text-sm font-bold text-blue-300">
                     {item.step}
                   </div>
                   <div>
-                    <h3 className="font-display text-lg font-semibold">{item.title}</h3>
+                    <h3 className="font-display text-lg font-semibold text-white">{item.title}</h3>
                     <p className="mt-1 text-sm leading-relaxed text-slate-400">
                       {item.description}
                     </p>
@@ -55,34 +53,27 @@ export default function HowItWorks() {
           </div>
 
           <div className="relative">
-            <div className="absolute -inset-4 rounded-3xl bg-gradient-to-br from-indigo-500/20 via-transparent to-cyan-400/20 blur-2xl" />
-            <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-[#12121c] p-6 shadow-2xl">
-              <div className="mb-4 flex items-center gap-2 border-b border-white/8 pb-4">
-                <div className="h-3 w-3 rounded-full bg-red-500/80" />
-                <div className="h-3 w-3 rounded-full bg-yellow-500/80" />
-                <div className="h-3 w-3 rounded-full bg-green-500/80" />
-                <span className="ml-2 text-xs text-slate-500">Notech Workflow Studio</span>
+            <div className="relative overflow-hidden rounded-xl border border-slate-700/60 bg-[#1e293b] p-6 shadow-xl">
+              <div className="mb-4 flex items-center gap-2 border-b border-slate-700/50 pb-4">
+                <span className="text-xs font-medium text-slate-500">Nova AI Workflow Designer</span>
               </div>
               <div className="space-y-3 font-mono text-xs">
-                <div className="rounded-lg bg-indigo-500/10 p-3 text-indigo-300">
-                  <span className="text-slate-500">trigger →</span> New lead in HubSpot
+                <div className="rounded-md border border-slate-700/50 bg-[#0f172a] p-3 text-blue-300">
+                  <span className="text-slate-500">trigger →</span> New enterprise inquiry received
                 </div>
-                <div className="ml-4 rounded-lg bg-violet-500/10 p-3 text-violet-300">
-                  <span className="text-slate-500">agent →</span> Enrich & score lead with AI
+                <div className="ml-4 rounded-md border border-slate-700/50 bg-[#0f172a] p-3 text-teal-300">
+                  <span className="text-slate-500">agent →</span> Classify intent and enrich account data
                 </div>
-                <div className="ml-8 rounded-lg bg-cyan-500/10 p-3 text-cyan-300">
-                  <span className="text-slate-500">action →</span> Route to sales rep + Slack alert
+                <div className="ml-8 rounded-md border border-slate-700/50 bg-[#0f172a] p-3 text-slate-300">
+                  <span className="text-slate-500">action →</span> Assign owner and notify account team
                 </div>
-                <div className="ml-12 rounded-lg bg-emerald-500/10 p-3 text-emerald-300">
-                  <span className="text-slate-500">action →</span> Schedule follow-up email sequence
+                <div className="ml-12 rounded-md border border-slate-700/50 bg-[#0f172a] p-3 text-slate-300">
+                  <span className="text-slate-500">action →</span> Log activity to CRM with compliance metadata
                 </div>
               </div>
-              <div className="mt-6 flex items-center justify-between rounded-lg border border-white/8 bg-[#0c0c14] px-4 py-3">
-                <span className="text-xs text-slate-500">Status</span>
-                <span className="flex items-center gap-2 text-xs font-medium text-emerald-400">
-                  <span className="h-2 w-2 animate-pulse rounded-full bg-emerald-400" />
-                  Running — 847 tasks today
-                </span>
+              <div className="mt-6 flex items-center justify-between rounded-md border border-slate-700/50 bg-[#0f172a] px-4 py-3">
+                <span className="text-xs text-slate-500">Pipeline status</span>
+                <span className="text-xs font-medium text-teal-400">Production — SLA 99.9%</span>
               </div>
             </div>
           </div>

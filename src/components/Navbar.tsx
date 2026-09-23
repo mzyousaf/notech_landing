@@ -1,11 +1,12 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import NovaLogo from "@/components/NovaLogo";
 
 const navLinks = [
-  { label: "Features", href: "#features" },
-  { label: "How it works", href: "#how-it-works" },
-  { label: "Solutions", href: "#solutions" },
+  { label: "Platform", href: "#features" },
+  { label: "Process", href: "#how-it-works" },
+  { label: "Industries", href: "#solutions" },
   { label: "FAQ", href: "#faq" },
 ];
 
@@ -23,20 +24,13 @@ export default function Navbar() {
     <header
       className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "border-b border-white/8 bg-[#050508]/80 backdrop-blur-xl"
+          ? "border-b border-slate-700/50 bg-[#0a1628]/90 backdrop-blur-xl"
           : "bg-transparent"
       }`}
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
-        <a href="#" className="flex items-center gap-2.5">
-          <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-gradient-to-br from-indigo-500 to-cyan-400">
-            <svg viewBox="0 0 24 24" className="h-5 w-5 text-white" fill="none" stroke="currentColor" strokeWidth="2">
-              <path d="M12 2L2 7l10 5 10-5-10-5z" />
-              <path d="M2 17l10 5 10-5" />
-              <path d="M2 12l10 5 10-5" />
-            </svg>
-          </div>
-          <span className="font-display text-xl font-bold tracking-tight">Notech</span>
+        <a href="#">
+          <NovaLogo />
         </a>
 
         <div className="hidden items-center gap-8 md:flex">
@@ -44,7 +38,7 @@ export default function Navbar() {
             <a
               key={link.href}
               href={link.href}
-              className="text-sm text-slate-400 transition-colors hover:text-white"
+              className="text-sm font-medium text-slate-400 transition-colors hover:text-white"
             >
               {link.label}
             </a>
@@ -52,17 +46,11 @@ export default function Navbar() {
         </div>
 
         <div className="hidden items-center gap-3 md:flex">
-          <a
-            href="#contact"
-            className="rounded-full px-4 py-2 text-sm font-medium text-slate-300 transition-colors hover:text-white"
-          >
+          <a href="#contact" className="btn-secondary !py-2.5 !px-4">
             Contact
           </a>
-          <a
-            href="#contact"
-            className="rounded-full bg-gradient-to-r from-indigo-500 to-cyan-400 px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-indigo-500/25 transition hover:shadow-indigo-500/40"
-          >
-            Book a Demo
+          <a href="#contact" className="btn-primary !py-2.5">
+            Request a Demo
           </a>
         </div>
 
@@ -83,7 +71,7 @@ export default function Navbar() {
       </nav>
 
       {mobileOpen && (
-        <div className="border-t border-white/8 bg-[#050508]/95 px-6 py-4 backdrop-blur-xl md:hidden">
+        <div className="border-t border-slate-700/50 bg-[#0a1628]/95 px-6 py-4 backdrop-blur-xl md:hidden">
           <div className="flex flex-col gap-4">
             {navLinks.map((link) => (
               <a
@@ -97,10 +85,10 @@ export default function Navbar() {
             ))}
             <a
               href="#contact"
-              className="mt-2 rounded-full bg-gradient-to-r from-indigo-500 to-cyan-400 px-5 py-2.5 text-center text-sm font-semibold text-white"
+              className="btn-primary mt-2 text-center"
               onClick={() => setMobileOpen(false)}
             >
-              Book a Demo
+              Request a Demo
             </a>
           </div>
         </div>
