@@ -18,7 +18,7 @@ export default function NovaLogo({ showWordmark = true, size = "md" }: NovaLogoP
       </span>
       {showWordmark && (
         <span className="font-display text-xl font-semibold tracking-tight text-white">
-          Nova <span className="font-normal text-slate-300">AI</span>
+          Nova <span className="font-normal text-slate-300">Labs</span>
         </span>
       )}
     </span>

@@ -55,7 +55,7 @@ export default function HowItWorks() {
           <div className="relative">
             <div className="relative overflow-hidden rounded-xl border border-slate-700/60 bg-[#1e293b] p-6 shadow-xl">
               <div className="mb-4 flex items-center gap-2 border-b border-slate-700/50 pb-4">
-                <span className="text-xs font-medium text-slate-500">Nova AI Workflow Designer</span>
+                <span className="text-xs font-medium text-slate-500">Nova Labs Workflow Designer</span>
               </div>
               <div className="space-y-3 font-mono text-xs">
                 <div className="rounded-md border border-slate-700/50 bg-[#0f172a] p-3 text-blue-300">

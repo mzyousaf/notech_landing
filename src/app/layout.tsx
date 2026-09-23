@@ -9,18 +9,18 @@ const plusJakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Nova AI — Enterprise AI Automation & Intelligent Agents",
+  title: "Nova Labs — Enterprise AI Automation & Intelligent Agents",
   description:
-    "Nova AI helps organizations design, deploy, and scale AI-powered automation — from intelligent agents to secure workflow orchestration across your entire stack.",
+    "Nova Labs helps organizations design, deploy, and scale AI-powered automation — from intelligent agents to secure workflow orchestration across your entire stack.",
   keywords: [
-    "Nova AI",
+    "Nova Labs",
     "enterprise AI",
     "AI automation",
     "intelligent agents",
     "workflow automation",
   ],
   openGraph: {
-    title: "Nova AI — Enterprise AI Automation & Intelligent Agents",
+    title: "Nova Labs — Enterprise AI Automation & Intelligent Agents",
     description:
       "Transform operations with secure AI agents, deep integrations, and measurable business outcomes.",
     type: "website",

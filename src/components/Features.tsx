@@ -72,7 +72,7 @@ export default function Features() {
             <span className="gradient-text">enterprise AI operations</span>
           </h2>
           <p className="mt-4 text-lg text-slate-400">
-            Nova AI unifies agent intelligence, workflow automation, and governance
+            Nova Labs unifies agent intelligence, workflow automation, and governance
             in one platform built for reliability at scale.
           </p>
         </div>

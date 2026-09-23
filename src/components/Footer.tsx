@@ -2,7 +2,7 @@ import NovaLogo from "@/components/NovaLogo";
 
 const footerLinks = {
   Platform: ["AI Agents", "Integrations", "Security", "Analytics"],
-  Company: ["About Nova AI", "Careers", "Insights", "Partners"],
+  Company: ["About Nova Labs", "Careers", "Insights", "Partners"],
   Resources: ["Documentation", "Implementation Guide", "Case Studies", "Support"],
   Legal: ["Privacy Policy", "Terms of Service", "Security", "Cookies"],
 };
@@ -17,7 +17,7 @@ export default function Footer() {
               <NovaLogo />
             </a>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-slate-500">
-              Nova AI delivers enterprise-grade intelligent automation — helping
+              Nova Labs delivers enterprise-grade intelligent automation — helping
               organizations operate faster, safer, and with greater clarity.
             </p>
           </div>
@@ -40,7 +40,7 @@ export default function Footer() {
 
         <div className="mt-16 flex flex-col items-center justify-between gap-4 border-t border-slate-700/50 pt-8 sm:flex-row">
           <p className="text-xs text-slate-600">
-            &copy; {new Date().getFullYear()} Nova AI. All rights reserved.
+            &copy; {new Date().getFullYear()} Nova Labs. All rights reserved.
           </p>
           <p className="text-xs text-slate-600">Enterprise AI automation, delivered with precision.</p>
         </div>

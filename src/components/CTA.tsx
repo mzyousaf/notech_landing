@@ -6,18 +6,18 @@ export default function CTA() {
           <div className="absolute inset-0 grid-pattern opacity-40" />
           <div className="relative">
             <h2 className="font-display text-3xl font-bold tracking-tight text-white sm:text-4xl">
-              Build your AI automation roadmap with Nova AI
+              Build your AI automation roadmap with Nova Labs
             </h2>
             <p className="mx-auto mt-4 max-w-xl text-lg text-slate-400">
               Speak with our specialists to identify high-impact use cases and
               launch a secure automation program tailored to your organization.
             </p>
             <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-              <a href="mailto:hello@nova.ai" className="btn-primary px-8 py-3.5 text-base">
+              <a href="mailto:hello@novalabs.com" className="btn-primary px-8 py-3.5 text-base">
                 Request a Demo
               </a>
-              <a href="mailto:hello@nova.ai" className="btn-secondary px-8 py-3.5 text-base">
-                hello@nova.ai
+              <a href="mailto:hello@novalabs.com" className="btn-secondary px-8 py-3.5 text-base">
+                hello@novalabs.com
               </a>
             </div>
           </div>

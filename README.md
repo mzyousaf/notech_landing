@@ -1,6 +1,6 @@
-# Nova AI Landing Page
+# Nova Labs Landing Page
 
-A single-page marketing site for **Nova AI** — enterprise AI automation and intelligent agents.
+A single-page marketing site for **Nova Labs** — enterprise AI automation and intelligent agents.
 
 Built with Next.js, React, TypeScript, and Tailwind CSS.
 

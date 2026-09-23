@@ -6,9 +6,9 @@ export default function AssistrioChat() {
       <Script id="assistrio-chat-config" strategy="beforeInteractive">
         {`
           window.AssistrioChatConfig = {
-            botId: "6a4f0ea979616981427be06b",
+            botId: "6aaf8922ea664b0c0e15bf88",
             apiBaseUrl: "https://chat.assistrio.com",
-            accessKey: "pk_0hy36HKYx2w9hjeaMv9m99L4nnawj3-b",
+            accessKey: "pk_dAoV6PLOWKRavt64-tJZGDlS0DuvpVb6",
             position: "right"
           };
         `}

@@ -8,19 +8,19 @@ const faqs = [
     a: "Most enterprise programs launch initial automations within 3–5 weeks. Larger, multi-system rollouts are delivered in phased milestones over 8–12 weeks.",
   },
   {
-    q: "Do we need an in-house AI team to use Nova AI?",
-    a: "No. Nova AI provides solution design, integration, and managed rollout support. Your teams participate in workflow validation and adoption, not low-level engineering.",
+    q: "Do we need an in-house AI team to use Nova Labs?",
+    a: "No. Nova Labs provides solution design, integration, and managed rollout support. Your teams participate in workflow validation and adoption, not low-level engineering.",
   },
   {
-    q: "Which systems can Nova AI connect to?",
+    q: "Which systems can Nova Labs connect to?",
     a: "We integrate with major CRM, ERP, HRIS, collaboration, and data platforms — plus custom APIs. Common examples include Salesforce, Microsoft 365, SAP, ServiceNow, and Snowflake.",
   },
   {
-    q: "How does Nova AI handle security and governance?",
+    q: "How does Nova Labs handle security and governance?",
     a: "We support role-based access, encryption, detailed audit logs, policy guardrails for agents, and deployment models designed for regulated environments.",
   },
   {
-    q: "How is Nova AI priced?",
+    q: "How is Nova Labs priced?",
     a: "Pricing is based on scope, automation volume, and support level. We provide a tailored proposal after an initial discovery session.",
   },
 ];

@@ -1,7 +1,7 @@
 const testimonials = [
   {
     quote:
-      "Nova AI helped us standardize complex approval workflows across regions. We saw immediate gains in speed and audit readiness.",
+      "Nova Labs helped us standardize complex approval workflows across regions. We saw immediate gains in speed and audit readiness.",
     author: "James Whitfield",
     role: "Chief Operating Officer, Atlas Capital",
     avatar: "JW",
@@ -15,7 +15,7 @@ const testimonials = [
   },
   {
     quote:
-      "We reduced manual handoffs in client delivery by more than half. Nova AI became a strategic partner, not just a software vendor.",
+      "We reduced manual handoffs in client delivery by more than half. Nova Labs became a strategic partner, not just a software vendor.",
     author: "Daniel Ortiz",
     role: "Managing Partner, Pinnacle Legal Group",
     avatar: "DO",

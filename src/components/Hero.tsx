@@ -17,7 +17,7 @@ export default function Hero() {
           </h1>
 
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-slate-400">
-            Nova AI partners with your team to deploy secure AI agents, orchestrate
+            Nova Labs partners with your team to deploy secure AI agents, orchestrate
             complex workflows, and deliver measurable efficiency across sales,
             operations, and customer experience.
           </p>
@@ -39,7 +39,7 @@ export default function Hero() {
               <div className="h-2.5 w-2.5 rounded-full bg-slate-600" />
               <div className="h-2.5 w-2.5 rounded-full bg-slate-600" />
               <span className="ml-3 text-xs font-medium text-slate-500">
-                Nova AI Operations Console
+                Nova Labs Operations Console
               </span>
             </div>
             <div className="grid gap-4 p-6 sm:grid-cols-3">

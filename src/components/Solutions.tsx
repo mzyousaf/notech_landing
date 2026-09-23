@@ -39,7 +39,7 @@ export default function Solutions() {
             AI automation tailored to your sector
           </h2>
           <p className="mt-4 text-lg text-slate-400">
-            Nova AI adapts to industry-specific requirements — from compliance
+            Nova Labs adapts to industry-specific requirements — from compliance
             constraints to customer experience expectations.
           </p>
         </div>
