@@ -2,12 +2,14 @@
 
 import { useEffect, useState } from "react";
 import NovaLogo from "@/components/NovaLogo";
+import { ASSISTRIO_HELP_PAGE_URL } from "@/components/AssistrioChat";
 
 const navLinks = [
   { label: "Platform", href: "#features" },
   { label: "Process", href: "#how-it-works" },
   { label: "Industries", href: "#solutions" },
   { label: "FAQ", href: "#faq" },
+  { label: "Help Center", href: ASSISTRIO_HELP_PAGE_URL },
 ];
 
 export default function Navbar() {

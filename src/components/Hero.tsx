@@ -29,6 +29,13 @@ export default function Hero() {
             <a href="#how-it-works" className="btn-secondary w-full px-8 py-3.5 text-base sm:w-auto">
               Explore Our Approach
             </a>
+            <button
+              type="button"
+              data-assistrio-center-stage
+              className="btn-secondary w-full px-8 py-3.5 text-base sm:w-auto"
+            >
+              Ask Nova AI
+            </button>
           </div>
         </div>
 
